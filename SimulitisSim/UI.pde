@@ -30,15 +30,15 @@ public class UI{
     textAlign(CENTER);
     fill(0);
     
-    // Replace the number 0 with an expression that contains the variable citSize
-    text("Day: " + dayCount, 0, citySize - 25);
+    // Replace the number 0 with an expression that contains the variable citySize
+    text("Day: " + dayCount, (citySize-150), citySize - 25);
     
-    // Replace the number 0 with an expression that contains the variable citSize
-    text("Current Infections: " + infected, 0, citySize - 25);
+    // Replace the number 0 with an expression that contains the variable citySize
+    text("Current Infections: " + infected, (citySize/5), citySize - 25);
     
-    text("Recovered: " + recovered, 0, citySize - 25);
+    text("Recovered: " + recovered, (citySize*20), citySize - 25);
     
-    // Replace the number 0 with an expression that contains the variable citSize
-    text("Dead: " + dead, 0, citySize - 25);
+    // Replace the number 0 with an expression that contains the variable citySize
+    text("Dead: " + dead, (citySize-75), citySize - 25);
   }
 }
