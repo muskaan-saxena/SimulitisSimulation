@@ -31,14 +31,14 @@ public class UI{
     fill(0);
     
     // Replace the number 0 with an expression that contains the variable citySize
-    text("Day: " + dayCount, (citySize-150), citySize - 25);
+    text("Day: " + dayCount, (citySize-450), citySize - 25);
     
     // Replace the number 0 with an expression that contains the variable citySize
-    text("Current Infections: " + infected, (citySize/5), citySize - 25);
+    text("Current Infections: " + infected, (citySize*0.35), citySize - 25);
     
-    text("Recovered: " + recovered, (citySize*20), citySize - 25);
+    text("Recovered: " + recovered, (citySize*0.65), citySize - 25);
     
     // Replace the number 0 with an expression that contains the variable citySize
-    text("Dead: " + dead, (citySize-75), citySize - 25);
+    text("Dead: " + dead, (citySize-70), citySize - 25);
   }
 }
